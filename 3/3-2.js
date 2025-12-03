@@ -5,18 +5,12 @@ const len = 12;
 let p2 = 0;
 
 for (const bank of input) {
-    const locations = {
-        9: [],
-        8: [],
-        7: [],
-        6: [],
-        5: [],
-        4: [],
-        3: [],
-        2: [],
-        1: [],
-        0: [],
+    const locations = {};
+    
+    for (let digit = 9; digit >= 0; digit--) {
+        locations[digit] = [];
     }
+
     for (let i = 0; i < bank.length; i++) {
         locations[bank[i]].push(i);
     }
