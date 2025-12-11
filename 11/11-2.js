@@ -72,9 +72,9 @@ const countPaths = (start, end, limit, filter = '') => {
 // Level computpation data, based on the graph structure
 const levels = [
     {next: ['pzi', 'zyi', 'muy'], limit: 8},
-    {next: ['edr', 'ehw', 'vht', 'vjh', 'kqn'], filter: 'fft', limit: 7}, // rpm apc lpz
-    {next: ['rpn', 'apc', 'lpz'], limit: 8}, // tql jvl cix jyw xct
-    {next: ['tql', 'jvl', 'cix', 'jyw', 'xct'], limit: 7}, // qdo sdo ire you
+    {next: ['edr', 'ehw', 'vht', 'vjh', 'kqn'], filter: 'fft', limit: 7},
+    {next: ['rpn', 'apc', 'lpz'], limit: 8},
+    {next: ['tql', 'jvl', 'cix', 'jyw', 'xct'], limit: 7},
     {next: ['qdo', 'sdo', 'ire', 'you'], filter: 'dac', limit: 7},
     {next: ['out'], limit: 8}
 ]
